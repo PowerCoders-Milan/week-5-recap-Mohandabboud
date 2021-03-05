@@ -1,0 +1,49 @@
+.container {
+    height: 100vh;
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+}
+.content1{
+    grid-area: content1;
+    text-align: center;
+}
+.content2{
+    grid-area: content2;
+    text-align: center;
+}
+.content3{
+    grid-area: content3;
+    text-align: center;
+}
+.content4{
+    grid-area: content4;
+    text-align: center;
+}
+.content5{
+    grid-area: content5;
+    text-align: center;
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+
+
+@media (min-width: 800px) {
+    .container {
+       display: grid; 
+       grid-template-rows: 1fr 1fr 1fr 1fr;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-areas: 
+        'header header header'
+        'content1  content2 content3'
+        'content4  content4 content5'
+        'footer  footer  footer';
+        border: 1px solid brown;
+        border-radius: 5px;
+    } 
+}
