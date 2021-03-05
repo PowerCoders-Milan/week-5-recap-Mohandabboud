@@ -1,5 +1,6 @@
 var a = prompt("write the password")
-if (a.length > 8) {
+var password = "123456789"
+if (a == password) {
     var p = document.querySelector("p");
     p.className= "green"
 }
