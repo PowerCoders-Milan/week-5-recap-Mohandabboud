@@ -1,0 +1,36 @@
+.header {
+    background-color: aqua;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: yellow;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.button1 {
+    height: 50%;
+    width:  50%;
+    background-color: red;
+}
+.button2 {
+    height: 50%;
+    width:  50%;
+    background-color: violet;
+}
+.button3 {
+    height: 50%;
+    width:  50%;
+    background-color: slategrey;
+}
